@@ -278,6 +278,8 @@ function continueStatement(numero) {
 }
 orientation
 no se que palabras
+prueba reiniciando
+
 // No modificar nada debajo de esta línea
 // --------------------------------
 
