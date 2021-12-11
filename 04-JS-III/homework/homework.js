@@ -276,9 +276,6 @@ function continueStatement(numero) {
   //Pista: usá el statement 'continue'
   // Tu código:
 }
-otra
-otra mas 
-otra 
 
 
 // No modificar nada debajo de esta línea
