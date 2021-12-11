@@ -277,7 +277,7 @@ function continueStatement(numero) {
   // Tu código:
 }
 orientation
-
+no se que palabras
 // No modificar nada debajo de esta línea
 // --------------------------------
 
