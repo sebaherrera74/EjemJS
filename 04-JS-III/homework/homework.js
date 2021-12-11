@@ -279,6 +279,8 @@ function continueStatement(numero) {
 orientation
 no se que palabras
 prueba reiniciando
+otras mas 
+3334
 
 // No modificar nada debajo de esta línea
 // --------------------------------
