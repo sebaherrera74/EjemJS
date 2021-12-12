@@ -151,15 +151,15 @@ function multiplicarArgumentos() {
 }
 
 
-
-
 function cuentoElementos(arreglo){
   //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
   //Escribe tu código aquí
   var contadorElementos=0;
  for ( var i=0;i<arreglo.length;i++){
+   if (arreglo[i]>18){
    contadorElementos=contadorElementos+1;
  }
+}
  return contadorElementos;
  }
 
@@ -254,6 +254,13 @@ function mayorACien(array) {
   //La función recibe un array con enteros entre 0 y 200. Recorrer el array y guardar en un nuevo array sólo los
   //valores mayores a 100 (no incluye el 100). Finalmente devolver el nuevo array.
   // Tu código:
+  var nuevoArray=[];
+  for (var i=0;i<array.length;i++){
+    if( array[i]>100){
+      nuevoArray.push(array[i]);
+    }
+  }
+  return nuevoArray;
 }
 
 
@@ -265,6 +272,23 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
+
+  var array=[];
+  var suma=numero;
+  for(var i=0;i<10;i++){
+    suma=suma+2;
+    if(suma===i) break;
+    else {
+      array.push(suma);
+    }
+  }
+  if(i<10) {
+    return 'Se interrumpió la ejecución';
+  }
+  else {
+      return array;
+  }
+
 }
 
 
@@ -275,12 +299,19 @@ function continueStatement(numero) {
   //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua con la siguiente iteración
   //Pista: usá el statement 'continue'
   // Tu código:
+  var array=[];
+  var suma=numero;
+  for(var i=0;i<10;i++){
+    if(i===5) continue;
+    else {
+      suma=suma+2;
+      array.push(suma);
+    }
+  }
+  return array;
+
 }
-orientation
-no se que palabras
-prueba reiniciando
-otras mas 
-3334
+
 
 // No modificar nada debajo de esta línea
 // --------------------------------
